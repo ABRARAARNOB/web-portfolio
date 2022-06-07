@@ -1,5 +1,6 @@
 
 body{
+    margin: 0%;
     font-family: sans-serif;
 }
 h1{
@@ -7,6 +8,7 @@ h1{
 }
 .name-highlight{
     color: rebeccapurple;
+    font-weight: 900;
 }
 .half-width{
     width: 40%;
@@ -17,4 +19,63 @@ h1{
 .half-width img{
     width: 95%;
     
+}
+#top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.big{
+    height: 500px;
+    padding-bottom: 200px
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,purple,blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px; ;
+    
+}
+.dream-highlight{
+    color: fuchsia;
+}
+#dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.highlight{
+    color: rebeccapurple;
+    font-weight: 700;
+}
+.same{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 85%;
+    margin-top: 6%;
+    margin-bottom: 0%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,purple,blue);
+    border-image-slice: 1;
+}
+#ful{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    
+}
+#foot{
+    margin-bottom: 0%;
 }
